@@ -1,11 +1,12 @@
 import React from "react"
-import Logo from "./Logo"
+
 import Searchbar from "./Searchbar"
 import SignIn from "./SignIn"
+import Logo from "./Logo"
 
 function Header() {
   return (
-    <div className="flex items-center justify-between gap-10 px-4 mt-1 ">
+    <div className="flex items-center justify-between space-x-4 gap-2 flex-wrap h-15 px-6 fixed py-2 w-full bg-white z-10">
       <Logo />
       <Searchbar />
       <SignIn />

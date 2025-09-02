@@ -13,66 +13,66 @@ import { MdOutlinePodcasts } from "react-icons/md"
 function ExploreSection() {
   return (
     <div>
-      <section className="flex items-center gap-4 px-4 py-2">
-        <p className="font-medium">Explore</p>
+      <section className="flex items-center gap-4 pl-6 pt-6 pb-2 ">
+        <p className="font-medium text-base">Explore</p>
       </section>
-      <section className="flex flex-col gap-6 p-4">
-        <div className="flex items-center gap-4">
-          <i className="text-xl">
+      <section className="flex flex-col gap-2 px-4 pb-2">
+        <div className="flex items-center gap-6 hover:bg-gray-200 rounded-lg p-2">
+          <i className="text-lg">
             <RiShoppingBag4Line />
           </i>
           <span>Shopping</span>
         </div>
-        <div className="flex items-center gap-4">
-          <i className="text-xl">
+        <div className="flex items-center gap-6 hover:bg-gray-200 rounded-lg p-2">
+          <i className="text-lg">
             <IoMusicalNotesOutline />
           </i>
           <span>Music</span>
         </div>
-        <div className="flex items-center gap-4">
-          <i className="text-xl">
+        <div className="flex items-center gap-6 hover:bg-gray-200 rounded-lg p-2">
+          <i className="text-lg">
             <PiFilmSlateBold />
           </i>
           <span>Movies</span>
         </div>
-        <div className="flex items-center gap-4">
-          <i className="text-xl">
+        <div className="flex items-center gap-6 hover:bg-gray-200 rounded-lg p-2">
+          <i className="text-lg">
             <HiMiniSignal />
           </i>
           <span>Live</span>
         </div>
-        <div className="flex items-center gap-4">
-          <i className="text-xl">
+        <div className="flex items-center gap-6 hover:bg-gray-200 rounded-lg p-2">
+          <i className="text-lg">
             <SiYoutubegaming />
           </i>
           <span>Gaming</span>
         </div>
-        <div className="flex items-center gap-4">
-          <i className="text-xl">
+        <div className="flex items-center gap-6 hover:bg-gray-200 rounded-lg p-2">
+          <i className="text-lg">
             <MdOutlineNewspaper />
           </i>
           <span>News</span>
         </div>
-        <div className="flex items-center gap-4">
-          <i className="text-xl">
+        <div className="flex items-center gap-6 hover:bg-gray-200 rounded-lg p-2">
+          <i className="text-lg">
             <GrTrophy />
           </i>
           <span>Sports</span>
         </div>
-        <div className="flex items-center gap-4">
-          <i className="text-xl">
+        <div className="flex items-center gap-6 hover:bg-gray-200 rounded-lg p-2">
+          <i className="text-lg">
             <GiGraduateCap />
           </i>
           <span>Courses</span>
         </div>
-        <div className="flex items-center gap-4">
-          <i className="text-xl">
+        <div className="flex items-center gap-6 hover:bg-gray-200 rounded-lg p-2">
+          <i className="text-lg">
             <GiHanger />
           </i>
           <span>Fashion & Beauty</span>
         </div>
-        <div className="flex items-center gap-4">
-          <i className="text-xl">
+        <div className="flex items-center gap-6 hover:bg-gray-200 rounded-lg p-2">
+          <i className="text-lg">
             <MdOutlinePodcasts />
           </i>
           <span>podCasts</span>
